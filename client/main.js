@@ -67,7 +67,16 @@ Accounts.ui.config({
       else {
         return "annonymous";
       }
-    }
+    },
+  username:function(){
+   if(Meteor.user()){
+      return Meteor.user().username;
+   }
+   else{
+      return "annonymous internet user";
+   }
+  }
+
 });
 
 Template.body.helpers({username:function(){

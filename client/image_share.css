@@ -1,0 +1,22 @@
+/* CSS declarations go here */
+.thumbnail{
+	min-height:500px;
+	max-height:500px;
+}
+.thumbnail-img{
+	max-height:250px;
+}
+body{
+	padding-top:60px;
+	padding-left:60px;
+	padding-right:60px;
+}
+.js-unset-image-filter{
+	font-size: 15px;
+}
+.a{
+	font-size:20px;
+}
+.single-img{
+	max-width:100%;
+}
